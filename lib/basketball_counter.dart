@@ -117,7 +117,7 @@ class _PointsCounterState extends State<PointsCounter> {
     );
   }
 
-  ElevatedButton buildbutton(String title, Function() onPressed) {
+  ElevatedButton buildbutton(String title, Function()? onPressed) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
         padding: const EdgeInsets.all(8),
